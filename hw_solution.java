@@ -11,7 +11,7 @@ public class Main
         float f = s.nextFloat();
     }
     private static void createRandom(Random r, int min, int max) {
-        // 100-250 --> 250-100 == 150 numbers
+        // 100-250 --> 250-100 == 151 numbers
         // random (max-min) (250-100) (150 + 1) 0-150
         // 0   + 100 (min) = 100
         // 150 + 100 (min) = 250
